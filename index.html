@@ -4,44 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="container">
 		<div class="header">
-			<h2>Registration Form</h2>
+			<h2>Registračný formulár</h2>
 			<div><i style='font-size:24px' class='fas'>&#xf2bd;</i></div>
 		</div>
 			<form action="backend.php" class="main-form" onsubmit="return myfun()">
 				<div class="form">
-					<label for="">Username</label>
-					<input type="text" placeholder="Enter your username" id="username" autocomplete="off">
+					<label for="">Meno</label>
+					<input type="text" placeholder="Zadajte meno" id="username" autocomplete="off">
+					<i class="fas sucess">&#xf058;</i>
+					<i class="fas error">&#xf06a;</i>
+					<small class="message">error message</small>
+				</div>
+                <div class="form">
+					<label for="">Priezvisko</label>
+					<input type="text" placeholder="Zadajte priezvisko" id="priezvisko" autocomplete="off">
 					<i class="fas sucess">&#xf058;</i>
 					<i class="fas error">&#xf06a;</i>
 					<small class="message">error message</small>
 				</div>
 				<div class="form">
 					<label for="">Email</label>
-					<input type="email" placeholder="Enter your valid email" id="email" autocomplete="off">
+					<input type="email" placeholder="Zadajte email" id="email" autocomplete="off">
 					<i class="fas sucess">&#xf058;</i>
 					<i class="fas error">&#xf06a;</i>
 					<small class="message">error message</small>
 				</div>
 				<div class="form">
-					<label for="">Password</label>
-					<input type="password" placeholder="Enter your password" id="password1" autocomplete="off">
+					<label for="">Heslo</label>
+					<input type="password" placeholder="Zadajte heslo" id="password1" autocomplete="off">
 					<i class="fas sucess">&#xf058;</i>
 					<i class="fas error">&#xf06a;</i>
 					<small class="message">error message</small>
 				</div>
 				<div class="form">
-					<label for="">Password check</label>
-					<input type="password" placeholder="Please re-enter your password" id="password2" autocomplete="off">
+					<label for="">Zopakovanie hesla</label>
+					<input type="password" placeholder="Zopakujte heslo" id="password2" autocomplete="off">
 					<i class="fas sucess">&#xf058;</i>
 					<i class="fas error">&#xf06a;</i>
 					<small class="message">error message</small>
 				</div>
-				<button>submit</button>
+				<button>Potvrdiť</button>
 
 					
 			</form>
