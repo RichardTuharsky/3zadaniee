@@ -43,7 +43,7 @@ function myfun(){
 		sucess[0].style.color='green';
 		u=1;
 
-
+		/*valiacia pre priezvisko*/
 	}
 	if(priezvisko.value==""){
 		priezvisko.style.borderColor = 'red';
@@ -161,7 +161,7 @@ function myfun(){
 		p2=1;
 	}
 
-	//return condition//
+	
 
 	if(u==1&&e==1&&p1==1&&p2==1){
 		return true;

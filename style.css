@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 
 }
+/*celok*/
 body{
 		background-image: url('background1.jpg');
 		background-size: cover;
@@ -19,6 +20,8 @@ body{
 		align-items: center;
 		font-family: 'Ubuntu', sans-serif;
 }
+
+/*box*/
 .container{
 	background-color: white;
 	border-radius: 7px;
@@ -28,23 +31,31 @@ body{
 	height: 800px;
 	max-width: 100%;
 }
+
+/*hlavicka*/
 .header{
 	text-align: center;
 	padding: 20px;
 	background-color: #d1c4c8;
 }
+
+/*hlavicka - pismo*/
 .header h2{
 	margin: 0;
 	font-size: 30px;
 }
+
 .main-form{
 	padding: 30px 40px;
 }
+
 .form{
 	padding-bottom: 20px;
 	margin-bottom: 10px;
 	position: relative;
 }
+
+/*policka na pisanie*/
 .form input{
 	border: 2px solid #f0f0f0;
 	border-radius: 4px;
@@ -54,6 +65,8 @@ body{
 	display: block;
 	font-size: 14px;
 }
+
+/*ikony*/
 .form i{
 	position: absolute;
 	top: 32px;
@@ -61,6 +74,7 @@ body{
 	visibility: hidden;
 
 }
+
 .form small{
 	position: absolute;
 	bottom: 0;
@@ -80,10 +94,10 @@ button{
 	color: white;
 	background-color: #655c59;
 	outline: none;
-	margin-top:7px;
-	margin-left: 20px;
+	margin-top:50px;
+	margin-left: 17px;
 }
-
+/*tlacidlo style*/
 button:hover{
 	background-color: black;
 	color: white;
