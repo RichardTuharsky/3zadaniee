@@ -25,6 +25,7 @@ body{
 	overflow: hidden;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 	width: 437px;
+	height: 800px;
 	max-width: 100%;
 }
 .header{
@@ -69,7 +70,7 @@ body{
 }
 /*tlacidko potvrdit*/
 button{
-	width: 100%;
+	width: 90%;
 	font-family: inherit;
 	font-size: 18px;
 	padding: 10px;
@@ -79,7 +80,8 @@ button{
 	color: white;
 	background-color: #655c59;
 	outline: none;
-	margin-top:10px;
+	margin-top:7px;
+	margin-left: 20px;
 }
 button:hover{
 	background-color: black;
