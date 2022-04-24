@@ -30,7 +30,7 @@ body{
 .header{
 	text-align: center;
 	padding: 20px;
-	background-color: #c7bfbf;
+	background-color: #d1c4c8;
 }
 .header h2{
 	margin: 0;
@@ -67,6 +67,7 @@ body{
 	visibility: hidden;
 
 }
+/*tlacidko potvrdit*/
 button{
 	width: 100%;
 	font-family: inherit;
